@@ -1,0 +1,75 @@
+body {
+	background: black;
+}
+
+button {
+	display: inline;
+	width: auto;
+	height: auto;
+	position: absolute;
+	padding: 5px;
+	border: 3px solid orange;
+	border-radius: 5px;
+	color: orange;
+	font-size: 1.5em;
+}
+
+h2 {
+	color: green;
+	margin-left: 245px;
+	font-size: 3em;
+}
+
+h4 {
+	color: green;
+	position: absolute;
+	font-size: 1.3em;
+	left: 235px;
+	top: 580px;
+}
+
+tr td {
+	width: 100px;
+	height: 100px;
+	border: 6px solid #ffffff;
+	color: red;
+	font-size: 3em;
+	text-align: center;
+}
+
+#board {
+	margin-left: 200px;
+	margin-top: 70px;
+}
+
+#turnMsg {
+	color: red;
+	margin-left: 305px;
+	font-size: 2em;
+}
+
+#win {
+	position: absolute;
+	left: 40px;
+	top: 280px;
+	color: red;
+	background: gold;
+	padding: 2px;
+	border-radius: 5px;
+}
+
+.top {
+	border-top: none;
+}
+
+.bottom {
+	border-bottom: none;
+}
+
+.left {
+	border-left: none;
+}
+
+.right {
+	border-right: none;
+}
